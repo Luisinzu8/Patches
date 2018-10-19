@@ -1,5 +1,7 @@
 body{
 	background-image: url(../images/patches7.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 iframe {
 	margin-top: 20px;
