@@ -6,4 +6,7 @@ iframe {
 }
 #about {
 	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	margin-right: 25%;
+	margin-left: 25%;
 }
