@@ -9,8 +9,9 @@ body{
 	padding: 20px 10px;
 }
 .header a {
+	font-family: 'Gloria Hallelujah', cursive;
 	float: left;
-	color: black;
+	color: #fff;
 	text-align: center;
 	padding: 12px;
 	text-decoration: none;
@@ -18,9 +19,8 @@ body{
 	line-height: 25px;
 	border-radius: 4px;
 }
-.header a.logo {
-	font-size: 25px;
-	font-weight: bold;
+.header img {
+	position: absolute;
 }
 .header-right {
 	float: right;
