@@ -3,6 +3,28 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+.header {
+	overflow: hidden;
+	background-color: transparent;
+	padding: 20px 10px;
+}
+.header a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
+.header a.logo {
+	font-size: 25px;
+	font-weight: bold;
+}
+.header-right {
+	float: right;
+}
 iframe {
 	margin-top: 20px;
 	margin-left: auto;
@@ -11,6 +33,7 @@ iframe {
 }
 #about {
 	font-family: 'Gloria Hallelujah', cursive;
+	color: #fff;
 	text-align: center;
 	margin-right: 25%;
 	margin-left: 25%;
