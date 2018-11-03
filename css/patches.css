@@ -1,20 +1,14 @@
 body html {
 	height: 100%;
 }
-body{
-	height: 100%
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	max-width: 100%;
-}
 .parallax {
 	background-image: url(../images/patches7.png);
 	height: 100%;
 	background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 .header {
 	overflow: hidden;
@@ -56,6 +50,7 @@ footer {
 }
 footer a{
 	color: #999;
+	letter-spacing: 1em;
 }
 footer i {
 	margin-top: 10%;
